@@ -12,7 +12,7 @@ export default function Example() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <header className="bg-black">
+    <header className="bg-customPrimary">
       <nav
         className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8"
         aria-label="Global"
@@ -34,7 +34,7 @@ export default function Example() {
         <div className="hidden lg:flex lg:gap-x-12">
           <a
             href="#"
-            className="text-xl uppercase font-bold leading-6 text-gray-500 hover:text-gray-300 transition duration-500"
+            className="text-xl uppercase font-bold leading-6 text-customColor1 hover:text-gray-300 transition duration-500"
           >
             Home
           </a>
@@ -56,7 +56,7 @@ export default function Example() {
         onClose={setMobileMenuOpen}
       >
         <div className="fixed inset-0 z-10" />
-        <Dialog.Panel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-black px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-300">
+        <Dialog.Panel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-customPrimary px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-300">
           <div className="flex items-center justify-between">
             <a href="#" className="-m-1.5 p-1.5">
               <span className="sr-only">Your Company</span>
@@ -80,7 +80,7 @@ export default function Example() {
               <div className="space-y-2 py-6">
                 <a
                   href="#"
-                  className="-mx-3 block rounded-lg px-3 py-2 text-xl uppercase font-bold leading-7 text-gray-500 hover:bg-gray-900 hover:text-gray-300 duration-500"
+                  className="-mx-3 block rounded-lg px-3 py-2 text-xl uppercase font-bold leading-7 text-customColor1 hover:bg-gray-800 hover:text-gray-300 duration-500"
                 >
                   Home
                 </a>
@@ -88,7 +88,7 @@ export default function Example() {
                   <a
                     key={item.name}
                     href={item.href}
-                    className="-mx-3 block rounded-lg px-3 py-2 text-xl uppercase font-bold leading-7 text-white hover:bg-gray-900 hover:text-gray-400 duration-500"
+                    className="-mx-3 block rounded-lg px-3 py-2 text-xl uppercase font-bold leading-7 text-white hover:bg-gray-800 hover:text-gray-400 duration-500"
                   >
                     {item.name}
                   </a>
