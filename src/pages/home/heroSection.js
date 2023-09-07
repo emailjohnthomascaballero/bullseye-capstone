@@ -11,7 +11,7 @@ const heroSection = () => {
           alt="hero banner"
         />
       </div>
-      <div className="relative mx-auto max-w-7xl py-14 sm:py-32 lg:px-8 lg:py-40">
+      <div className="relative mx-auto max-w-7xl py-14 sm:py-32 lg:px-8 lg:py-52">
         <div className="pl-6 pr-6 md:ml-auto md:w-2/3 md:pl-16 lg:w-1/2 lg:pl-24 lg:pr-0 xl:pl-32">
           <div className="flex items-center">
             <img src="/icons/vertical-bar.svg" className="mr-1 h-24 lg:h-36" />
