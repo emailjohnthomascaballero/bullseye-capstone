@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://github.com/emailjohnthomascaballero">
-    <img src="https://elements-template-kits-cover-images-0.imgix.net/files/452687759/Bullseye---Cover-Image.jpg?auto=compress%2Cformat&fit=max&w=1170&s=bd9a725ffe0559a3024396fb897679e3">
+    <img src="https://themeforest.img.customer.envatousercontent.com/files/457607200/Preview+Image/02_Homepage.jpg?auto=compress%2Cformat&fit=crop&crop=top&w=590&h=300&s=82272ed2aa6ae5f81d9d35d27848a868" width="100%">
   </a>
 </p>
 
