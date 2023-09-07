@@ -29,9 +29,9 @@ const heroSection = () => {
           <div className="mt-8">
             <a
               href="#"
-              className="inline-flex rounded-md bg-customSecondary px-3.5 py-2.5 text-sm font-semibold text-white uppercase shadow-sm hover:bg-white/20 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
+              className="inline-flex rounded-md bg-customSecondary px-3.5 py-2.5 text-sm font-semibold text-white uppercase shadow-sm hover:bg-white/20 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white duration-500"
             >
-              Explore More <img src="/icons/arrow-right.svg" className="ml-2" />
+              Explore More <img src="/icons/arrow-right-white.svg" className="ml-2" />
             </a>
           </div>
         </div>
