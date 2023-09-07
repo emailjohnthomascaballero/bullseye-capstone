@@ -23,7 +23,7 @@ const heroSection = () => {
 
           <p className="mt-6 text-lg leading-7 text-gray-300">
             Welcome to Bullseye, the premier shooting range and gun club in
-            Indonesia. Whether you’re a seasoned marksman or a beginner looking
+            Philippines. Whether you’re a seasoned marksman or a beginner looking
             to improve your skills, we have something for everyone.
           </p>
           <div className="mt-8">
