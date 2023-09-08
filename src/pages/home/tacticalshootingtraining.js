@@ -65,9 +65,9 @@ const tacticalshootingtraining = () => {
               <ul role="list" className="mt-6 flex  gap-x-6">
                 <a
                   href="#"
-                  className="inline-flex text-xl uppercase font-bold leading-6 text-customSecondary hover:text-gray-300 transition duration-500"
+                  className="inline-flex text-base uppercase font-bold leading-6 text-customSecondary hover:text-gray-300 transition duration-500"
                 >
-                  Home{" "}
+                  Join Program{" "}
                   <img src="/icons/arrow-right-green.svg" className="ml-2" />
                 </a>
               </ul>
