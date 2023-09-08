@@ -3,6 +3,7 @@ import { Oswald } from "next/font/google";
 import Footer from "src/components/footer";
 import Navbar from "src/components/navbar";
 import Hero from "src/pages/home/heroSection";
+import Tactical from "src/pages/home/tacticalshootingtraining";
 
 import { useState } from "react";
 import { Dialog } from "@headlessui/react";
@@ -25,6 +26,7 @@ export default function Index() {
     <div className={`${oswald.className}`}>
       <Navbar />
       <Hero />
+      <Tactical />
       <Footer />
     </div>
   );
