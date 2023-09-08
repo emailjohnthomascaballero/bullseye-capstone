@@ -54,7 +54,7 @@ const tacticalshootingtraining = () => {
               className="px-8 py-10 border border-white flex-col items-center"
             >
               <img
-                className=" h-24 w-24 md:h-28 md:w-28"
+                className=" h-12 w-12 md:h-14 md:w-14"
                 src={person.imageUrl}
                 alt=""
               />
