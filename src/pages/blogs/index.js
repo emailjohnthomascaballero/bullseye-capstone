@@ -1,15 +1,18 @@
 import React from "react";
-import Footer from "src/components/Footer";
-import Navbar from "src/components/Navbar";
+import Footer from "src/components/footer";
+import Navbar from "src/components/navbar";
+import Banner from "src/pages/blogs/blogsbanner";
+import Content from "src/pages/blogs/blogscontent";
 
-const contact = () => {
+const blogs = () => {
   return (
     <div>
       <Navbar />
-      <h1>blogs</h1>
+      <Banner />
+      <Content />
       <Footer />
     </div>
   );
 };
 
-export default contact;
+export default blogs;
