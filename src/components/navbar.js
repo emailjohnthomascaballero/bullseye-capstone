@@ -3,9 +3,9 @@ import { Dialog } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 
 const navigation = [
-  { name: "News", href: "#" },
-  { name: "Blog", href: "#" },
-  { name: "Contact Us", href: "#" },
+  { name: "News", href: "../news" },
+  { name: "Blog", href: "../blogs" },
+  { name: "Contact Us", href: "/contact" },
 ];
 
 export default function Navbar() {
@@ -33,7 +33,7 @@ export default function Navbar() {
         </div>
         <div className="hidden lg:flex lg:gap-x-12">
           <a
-            href="#"
+            href="/"
             className="text-xl uppercase font-bold leading-6 text-customColor1 hover:text-gray-300 transition duration-500"
           >
             Home
