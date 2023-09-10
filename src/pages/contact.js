@@ -1,11 +1,13 @@
+import React from 'react'
+import { Oswald } from "next/font/google";
 import Footer from "src/components/Footer";
 import Navbar from "src/components/Navbar";
 
-import React from 'react'
+const oswald = Oswald({ subsets: ["latin"] });
 
 const contact = () => {
   return (
-    <div>
+    <div className={`${oswald.className}`}>
       <Navbar />
         <h1>contact</h1>
       <Footer />
