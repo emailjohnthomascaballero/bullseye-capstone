@@ -1,7 +1,7 @@
 import { Oswald } from "next/font/google";
 import Footer from "src/components/footer";
 import Navbar from "src/components/navbar";
-import Hero from "src/pages/home/heroSection";
+import Hero from "src/pages/home/hero";
 import Tactical from "src/pages/home/tacticalshootingtraining";
 import Safe from "src/pages/home/safefunaffordable";
 
