@@ -6,5 +6,6 @@
 
 # Bullseye - Shooting Range & Gun Club
 
-## Checklist
 [Notion](https://www.notion.so/BULLEYE-Shooting-Range-Gun-Club-d4fe901c8d3b4348b2fce29a96604f14?pvs=4)
+
+[Figma Design](https://www.figma.com/file/ky8VNsHtgkBYkv73II6iIr/Bullseye?type=design&node-id=0%3A1&mode=design&t=k3795FvfR707UjmD-1)
