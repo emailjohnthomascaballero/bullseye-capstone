@@ -46,15 +46,9 @@ const contactfaq = () => {
   return (
     <div className="bg-customPrimary">
       <div className="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:grid lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
-
-    
-
         <div className="lg:max-w-lg lg:self-end">
           <div className="mt-4 flex items-center">
-          <img
-                src="/icons/vertical-bar.svg"
-                className="mr-1 h-16 lg:h-10"
-              />
+            <img src="/icons/vertical-bar.svg" className="mr-1 h-16 lg:h-10" />
             <h1 className="text-3xl font-bold tracking-tight sm:text-4xl">
               {frequentlyAskedQuestions.title}
             </h1>
@@ -63,7 +57,9 @@ const contactfaq = () => {
           {questions.map((question) => (
             <section aria-labelledby="information-heading" className="mt-4">
               <div className="flex items-center font-bold">
-                <p className="text-lg sm:text-xl border-b border-customSecondary">{question.name}</p>
+                <p className="text-lg sm:text-xl border-b border-customSecondary">
+                  {question.name}
+                </p>
               </div>
 
               <div className="mt-4 space-y-6">
@@ -84,7 +80,6 @@ const contactfaq = () => {
             />
           </div>
         </div>
-
       </div>
     </div>
   );
