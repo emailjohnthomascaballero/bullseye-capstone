@@ -1,3 +1,25 @@
+import { Disclosure } from "@headlessui/react";
+import { MinusSmallIcon, PlusSmallIcon } from "@heroicons/react/24/outline";
+
+const faqs = [
+  {
+    question: "Do I need any prior experience to visit the shooting range?",
+    answer:
+      "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast",
+  },
+  {
+    question: "What Equipment Do I need to bring?",
+    answer:
+      "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast",
+  },
+  {
+    question: "Do you offer shooting courses or training?",
+    answer:
+      "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast",
+  },
+  // More questions...
+];
+
 /*
   This example requires some changes to your config:
   
@@ -14,23 +36,23 @@
 */
 import { useState } from "react";
 
-const questions = [
-  {
-    name: "Do I need any prior experience to visit the shooting range?",
-    description:
-      "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast",
-  },
-  {
-    name: "What Equipment Do I need to bring?",
-    description:
-      "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast",
-  },
-  {
-    name: "Do you offer shooting courses or training?",
-    description:
-      "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast",
-  },
-];
+// const questions = [
+//   {
+//     name: "Do I need any prior experience to visit the shooting range?",
+//     description:
+//       "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast",
+//   },
+//   {
+//     name: "What Equipment Do I need to bring?",
+//     description:
+//       "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast",
+//   },
+//   {
+//     name: "Do you offer shooting courses or training?",
+//     description:
+//       "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast",
+//   },
+// ];
 
 const frequentlyAskedQuestions = {
   title: "FREQUENTLY ASKED QUESTION",
@@ -47,27 +69,45 @@ const contactfaq = () => {
     <div className="bg-customPrimary">
       <div className="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:grid lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
         <div className="lg:max-w-lg lg:self-end">
-          <div className="mt-4 flex items-center">
-            <img src="/icons/vertical-bar.svg" className="mr-1 h-16 lg:h-10" />
-            <h1 className="text-3xl font-bold tracking-tight sm:text-4xl">
+          <div className="my-4 flex items-center">
+            <img src="/icons/vertical-bar.svg" className="mr-1 h-16 lg:h-24" />
+            <h1 className="text-4xl font-bold tracking-tight sm:text-5xl">
               {frequentlyAskedQuestions.title}
             </h1>
           </div>
 
-          {questions.map((question) => (
-            <section aria-labelledby="information-heading" className="mt-4">
-              <div className="flex items-center font-bold">
-                <p className="text-lg sm:text-xl border-b border-customSecondary">
-                  {question.name}
-                </p>
-              </div>
-
-              <div className="mt-4 space-y-6">
-                <p className="text-base text-customColor1">
-                  {question.description}
-                </p>
-              </div>
-            </section>
+          {faqs.map((faq) => (
+            <Disclosure as="div" key={faq.question} className="pt-6">
+              {({ open }) => (
+                <>
+                  <dt>
+                    <Disclosure.Button className="flex w-full items-start justify-between text-left text-white">
+                      <span className="text-xl font-bold leading-7">
+                        {faq.question}
+                      </span>
+                      <span className="ml-6 flex h-7 items-center">
+                        {open ? (
+                          <img src="/icons/arrow-up.svg"
+                            className="h-6 w-6"
+                            aria-hidden="true"
+                          />
+                        ) : (
+                          <img src="/icons/arrow-down.svg"
+                            className="h-6 w-6"
+                            aria-hidden="true"
+                          />
+                        )}
+                      </span>
+                    </Disclosure.Button>
+                  </dt>
+                  <Disclosure.Panel as="dd" className="mt-2 pr-12">
+                    <p className="text-base leading-7 text-gray-300">
+                      {faq.answer}
+                    </p>
+                  </Disclosure.Panel>
+                </>
+              )}
+            </Disclosure>
           ))}
         </div>
 
