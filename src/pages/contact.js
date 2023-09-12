@@ -1,9 +1,10 @@
-import React from 'react'
+import React from 'react';
 import { Oswald } from "next/font/google";
 import Footer from "src/components/Footer";
 import Navbar from "src/components/Navbar";
 import Banner from "./contact/contactbanner";
 import Faq from "./contact/contactfaq";
+import Map from "./contact/contactmap";
 
 const oswald = Oswald({ subsets: ["latin"] });
 
@@ -13,6 +14,7 @@ const contact = () => {
       <Navbar />
       <Banner />
       <Faq />
+      <Map />
       <Footer />
     </div>
   )
