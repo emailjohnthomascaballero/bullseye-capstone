@@ -1,5 +1,23 @@
 import { Disclosure } from "@headlessui/react";
 import { MinusSmallIcon, PlusSmallIcon } from "@heroicons/react/24/outline";
+import { useState } from "react";
+
+import { ArrowUpIcon, ChevronDownIcon } from "@heroicons/react/24/outline";
+
+/*
+  This example requires some changes to your config:
+  
+  ```
+  // tailwind.config.js
+  module.exports = {
+    // ...
+    plugins: [
+      // ...
+      require('@tailwindcss/aspect-ratio'),
+    ],
+  }
+  ```
+*/
 
 const faqs = [
   {
@@ -19,40 +37,6 @@ const faqs = [
   },
   // More questions...
 ];
-
-/*
-  This example requires some changes to your config:
-  
-  ```
-  // tailwind.config.js
-  module.exports = {
-    // ...
-    plugins: [
-      // ...
-      require('@tailwindcss/aspect-ratio'),
-    ],
-  }
-  ```
-*/
-import { useState } from "react";
-
-// const questions = [
-//   {
-//     name: "Do I need any prior experience to visit the shooting range?",
-//     description:
-//       "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast",
-//   },
-//   {
-//     name: "What Equipment Do I need to bring?",
-//     description:
-//       "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast",
-//   },
-//   {
-//     name: "Do you offer shooting courses or training?",
-//     description:
-//       "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast",
-//   },
-// ];
 
 const frequentlyAskedQuestions = {
   title: "FREQUENTLY ASKED QUESTION",
@@ -76,39 +60,35 @@ const contactfaq = () => {
             </h1>
           </div>
 
-          {faqs.map((faq) => (
-            <Disclosure as="div" key={faq.question} className="pt-6">
-              {({ open }) => (
-                <>
-                  <dt>
-                    <Disclosure.Button className="flex w-full items-start justify-between text-left text-white">
-                      <span className="text-xl font-bold leading-7">
-                        {faq.question}
-                      </span>
-                      <span className="ml-6 flex h-7 items-center">
-                        {open ? (
-                          <img src="/icons/arrow-up.svg"
-                            className="h-6 w-6"
-                            aria-hidden="true"
-                          />
-                        ) : (
-                          <img src="/icons/arrow-down.svg"
-                            className="h-6 w-6"
-                            aria-hidden="true"
-                          />
-                        )}
-                      </span>
-                    </Disclosure.Button>
-                  </dt>
-                  <Disclosure.Panel as="dd" className="mt-2 pr-12">
-                    <p className="text-base leading-7 text-gray-300">
-                      {faq.answer}
-                    </p>
-                  </Disclosure.Panel>
-                </>
-              )}
-            </Disclosure>
-          ))}
+          <dl className="mt-10 space-y-6 divide-y divide-white/10">
+            {faqs.map((faq) => (
+              <Disclosure as="div" key={faq.question} className="pt-6">
+                {({ open }) => (
+                  <>
+                    <dt>
+                      <Disclosure.Button className="flex w-full items-start justify-between text-left text-white">
+                        <span className="text-xl font-bold leading-7">
+                          {faq.question}
+                        </span>
+                        <span className="ml-6 flex h-7 items-center">
+                          {open ? (
+                            <ArrowUpIcon class="h-7 w-7" />
+                          ) : (
+                            <ChevronDownIcon class="h-7 w-7" />
+                          )}
+                        </span>
+                      </Disclosure.Button>
+                    </dt>
+                    <Disclosure.Panel as="dd" className="mt-2 pr-12">
+                      <p className="text-base leading-7 text-gray-300">
+                        {faq.answer}
+                      </p>
+                    </Disclosure.Panel>
+                  </>
+                )}
+              </Disclosure>
+            ))}
+          </dl>
         </div>
 
         <div className="mt-10 lg:col-start-2 lg:row-span-2 lg:mt-0 lg:self-center">
