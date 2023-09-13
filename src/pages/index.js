@@ -4,6 +4,7 @@ import Navbar from "src/components/navbar";
 import Hero from "src/pages/home/hero";
 import Tactical from "src/pages/home/tacticalshootingtraining";
 import Safe from "src/pages/home/safefunaffordable";
+import Upcoming from "src/pages/home/upcomingevent";
 
 const oswald = Oswald({ subsets: ["latin"] });
 
@@ -15,6 +16,7 @@ export default function Index() {
       <Hero />
       <Tactical />
       <Safe />
+      <Upcoming />
       <Footer />
     </div>
   );
