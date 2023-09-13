@@ -41,7 +41,7 @@ const contactmap = () => {
             <div className="mt-4 flex items-center">
               <img
                 src="/icons/vertical-bar.svg"
-                className="mr-1 h-16 lg:h-10"
+                className="mr-1 h-16 lg:h-24 2xl:h-16"
               />
               <h1 className="text-3xl font-bold tracking-tight sm:text-4xl">
                 GET IN TOUCH WITH OUR FRIENDLY TEAM

@@ -1,7 +1,4 @@
 import { Disclosure } from "@headlessui/react";
-import { MinusSmallIcon, PlusSmallIcon } from "@heroicons/react/24/outline";
-import { useState } from "react";
-
 import { ArrowUpIcon, ChevronDownIcon } from "@heroicons/react/24/outline";
 
 /*
