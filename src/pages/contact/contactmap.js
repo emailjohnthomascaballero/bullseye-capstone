@@ -31,7 +31,7 @@ const contactmap = () => {
         <div className="aspect-h-2 aspect-w-3 overflow-hidden sm:aspect-w-5 lg:aspect-none lg:absolute lg:h-full lg:w-1/2 lg:pr-4 xl:pr-16">
           <img
             src="/photos/contact-us-map.jpg"
-            alt="Black leather journal with silver steel disc binding resting on wooden shelf with machined steel pen."
+            alt="map exact location of this company"
             className="h-full w-full object-cover object-center lg:h-full lg:w-full"
           />
         </div>
@@ -57,7 +57,7 @@ const contactmap = () => {
                 <div>
                   <label
                     htmlFor="first-name"
-                    className="block text-sm font-semibold leading-6 "
+                    className="block text-base leading-6 "
                   >
                     First name
                   </label>
@@ -75,7 +75,7 @@ const contactmap = () => {
                 <div>
                   <label
                     htmlFor="last-name"
-                    className="block text-sm font-semibold leading-6 "
+                    className="block text-base leading-6 "
                   >
                     Last name
                   </label>
@@ -93,7 +93,7 @@ const contactmap = () => {
                 <div className="sm:col-span-2">
                   <label
                     htmlFor="email"
-                    className="block text-sm font-semibold leading-6 "
+                    className="block text-base leading-6 "
                   >
                     Email
                   </label>
@@ -111,7 +111,7 @@ const contactmap = () => {
                 <div className="sm:col-span-2">
                   <label
                     htmlFor="phone-number"
-                    className="block text-sm font-semibold leading-6 text-white"
+                    className="block text-base leading-6 text-white"
                   >
                     Phone number
                   </label>
@@ -129,7 +129,7 @@ const contactmap = () => {
                 <div className="sm:col-span-2">
                   <label
                     htmlFor="message"
-                    className="block text-sm font-semibold leading-6 "
+                    className="block text-base leading-6 "
                   >
                     Message
                   </label>
