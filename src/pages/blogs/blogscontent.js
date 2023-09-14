@@ -2,130 +2,82 @@ import React from "react";
 
 const posts = [
   {
-    id: 1,
     title: "Expert Advice, How to Choose the Right Gun for Your…",
-    href: "#",
-    description:
-      "Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.",
     imageUrl: "/photos/blog-expert-advice.jpg",
-    iconDateUrl: "/icons/date.svg",
+    href: "#",
+    alt: "shooter reload a rifle",
     date: "May 15, 2023",
-    datetime: "2020-03-16",
-    iconCategoryUrl: "/icons/category.svg",
-    // category: { title: "Tips & Tricks", href: "#" },
     category: "Tips & Tricks",
-    author: {
-      name: "Michael Foster",
-      role: "Co-Founder / CTO",
-      href: "#",
-      imageUrl:
-        "https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
-    },
+
+    firstIconUrl: "/icons/date.svg",
+    firstIconAlt: "date icon",
+    secondIconUrl: "/icons/category.svg",
+    secondIconAlt: "folders icon",
   },
   {
-    id: 1,
     title: "5 Essential Tips for Taking Your Shooting Skills from Good…",
-    href: "#",
-    description:
-      "Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.",
     imageUrl: "/photos/blog-essential-tips.jpg",
-    iconDateUrl: "/icons/date.svg",
+    href: "#",
+    alt: "man carrying a rifle",
     date: "May 15, 2023",
-    datetime: "2020-03-16",
-    iconCategoryUrl: "/icons/category.svg",
-    // category: { title: "Tips & Tricks", href: "#" },
     category: "Tips & Tricks",
-    author: {
-      name: "Michael Foster",
-      role: "Co-Founder / CTO",
-      href: "#",
-      imageUrl:
-        "https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
-    },
+
+    firstIconUrl: "/icons/date.svg",
+    firstIconAlt: "date icon",
+    secondIconUrl: "/icons/category.svg",
+    secondIconAlt: "folders icon",
   },
   {
-    id: 1,
     title: "The History of Shooting Sports, From Ancient Times to the…",
-    href: "#",
-    description:
-      "Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.",
     imageUrl: "/photos/blog-history-shooting.jpg",
-    iconDateUrl: "/icons/date.svg",
+    href: "#",
+    alt: "aiming using a pistol",
     date: "May 15, 2023",
-    datetime: "2020-03-16",
-    iconCategoryUrl: "/icons/category.svg",
-    // category: { title: "Tips & Tricks", href: "#" },
     category: "Tips & Tricks",
-    author: {
-      name: "Michael Foster",
-      role: "Co-Founder / CTO",
-      href: "#",
-      imageUrl:
-        "https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
-    },
+
+    firstIconUrl: "/icons/date.svg",
+    firstIconAlt: "date icon",
+    secondIconUrl: "/icons/category.svg",
+    secondIconAlt: "folders icon",
   },
   {
-    id: 1,
     title: "Guns, Gear, and Good Times, Behind the Scenes at Bullseye…",
-    href: "#",
-    description:
-      "Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.",
     imageUrl: "/photos/blog-guns-gear.jpg",
-    iconDateUrl: "/icons/date.svg",
+    href: "#",
+    alt: "shooter aiming a rifle",
     date: "May 15, 2023",
-    datetime: "2020-03-16",
-    iconCategoryUrl: "/icons/category.svg",
-    // category: { title: "Tips & Tricks", href: "#" },
     category: "Tips & Tricks",
-    author: {
-      name: "Michael Foster",
-      role: "Co-Founder / CTO",
-      href: "#",
-      imageUrl:
-        "https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
-    },
+
+    firstIconUrl: "/icons/date.svg",
+    firstIconAlt: "date icon",
+    secondIconUrl: "/icons/category.svg",
+    secondIconAlt: "folders icon",
   },
   {
-    id: 1,
     title: "The Top 10 Reasons Why Shooting Sports Are Great for…",
-    href: "#",
-    description:
-      "Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.",
     imageUrl: "/photos/blog-top-10.jpg",
-    iconDateUrl: "/icons/date.svg",
+    href: "#",
+    alt: "shooter aiming a rifle",
     date: "May 15, 2023",
-    datetime: "2020-03-16",
-    iconCategoryUrl: "/icons/category.svg",
-    // category: { title: "Tips & Tricks", href: "#" },
     category: "Tips & Tricks",
-    author: {
-      name: "Michael Foster",
-      role: "Co-Founder / CTO",
-      href: "#",
-      imageUrl:
-        "https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
-    },
+
+    firstIconUrl: "/icons/date.svg",
+    firstIconAlt: "date icon",
+    secondIconUrl: "/icons/category.svg",
+    secondIconAlt: "folders icon",
   },
   {
-    id: 1,
     title: "How Our Shooting Club Can Help You Take Your Skills…",
-    href: "#",
-    description:
-      "Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.",
     imageUrl: "/photos/blog-our-shooting.jpg",
-    iconDateUrl: "/icons/date.svg",
+    href: "#",
+    alt: "shooter aiming a rifle",
     date: "May 15, 2023",
-    datetime: "2020-03-16",
-    iconCategoryUrl: "/icons/category.svg",
-    // category: { title: "Tips & Tricks", href: "#" },
     category: "Tips & Tricks",
-    author: {
-      name: "Michael Foster",
-      role: "Co-Founder / CTO",
-      href: "#",
-      imageUrl:
-        "https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
-    },
+
+    firstIconUrl: "/icons/date.svg",
+    firstIconAlt: "date icon",
+    secondIconUrl: "/icons/category.svg",
+    secondIconAlt: "folders icon",
   },
   // More posts...
 ];
@@ -145,37 +97,29 @@ const blogscontent = () => {
 
         <div className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-3">
           {posts.map((post) => (
-            <article
-              key={post.id}
-              className="flex flex-col items-start justify-between"
-            >
+            <article className="flex flex-col items-start justify-between">
               <div className="relative w-full">
                 <img
                   src={post.imageUrl}
-                  alt=""
-                  className="aspect-[16/9] w-full rounded-2xl bg-gray-100 object-cover sm:aspect-[2/1] lg:aspect-[3/2]"
+                  alt={post.alt}
+                  className="aspect-[16/9] w-full bg-customColor1 object-cover sm:aspect-[2/1] lg:aspect-[3/2]"
                 />
-                <div className="absolute inset-0 rounded-2xl ring-1 ring-inset ring-gray-900/10" />
               </div>
               <div className="max-w-xl">
                 <div className="mt-8 flex items-center gap-x-4 text-base">
                   <img
-                    className=" h-6 w-6 md:h-7 md:w-7"
-                    src={post.iconDateUrl}
-                    alt=""
+                    className="h-6 w-6 md:h-7 md:w-7"
+                    src={post.firstIconUrl}
+                    alt={post.firstIconAlt}
                   />
-                  <time dateTime={post.datetime} className="text-customColor1">
-                    {post.date}
-                  </time>
+                  <time className="text-customColor1">{post.date}</time>
 
                   <img
-                    className=" h-6 w-6 md:h-7 md:w-7"
-                    src={post.iconCategoryUrl}
-                    alt=""
+                    className="h-6 w-6 md:h-7 md:w-7"
+                    src={post.secondIconUrl}
+                    alt={post.secondIconAlt}
                   />
-                  <time dateTime={post.datetime} className="text-customColor1">
-                    {post.category}
-                  </time>
+                  <time className="text-customColor1">{post.category}</time>
                 </div>
 
                 <div className="group relative">
