@@ -5,11 +5,13 @@ const people = [
     count: "1,200",
     role: "Safe Certified",
     imageUrl: "/icons/safe-certified.svg",
+    alt: "safe certified icon",
   },
   {
     count: "350",
     role: "Reliable Instructor",
     imageUrl: "/icons/reliable-instructor.svg",
+    alt: "reliable instructor icon",
   },
 ];
 
@@ -97,7 +99,7 @@ const safefunaffordable = () => {
                   <img
                     className=" h-12 w-12 md:h-14 md:w-14"
                     src={person.imageUrl}
-                    alt=""
+                    alt={person.alt}
                   />
 
                   <h3 className="inline-flex mt-6 text-6xl font-bold leading-7 tracking-tight text-white h-[41] w-44">
