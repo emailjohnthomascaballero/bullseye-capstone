@@ -68,7 +68,7 @@ const tacticalshootingtraining = () => {
                   className="inline-flex text-base uppercase font-bold leading-6 text-customSecondary hover:text-gray-300 transition duration-500"
                 >
                   Join Program{" "}
-                  <img src="/icons/arrow-right-green.svg" className="ml-2" />
+                  <img src="/icons/chevron-right.svg" className="ml-2" />
                 </a>
               </ul>
             </li>
