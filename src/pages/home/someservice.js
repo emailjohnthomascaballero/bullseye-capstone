@@ -1,6 +1,6 @@
 import React from "react";
 
-const people = [
+const services = [
   {
     name: "RANGE RENTAL",
     role: "Whether you're a seasoned shooter or a beginner, our top-of-the-line firearms are available for rent, ensuring a safe and thrilling shooting experience.",
@@ -37,21 +37,21 @@ const someservice = () => {
           role="list"
           className="mx-auto mt-20 grid max-w-2xl grid-cols-1 gap-6 lg:mx-0 lg:max-w-none lg:grid-cols-3 lg:gap-8"
         >
-          {people.map((person) => (
+          {services.map((service) => (
             <li
-              key={person.name}
+              key={service.name}
               className="border border-customSecondary px-8 py-10"
             >
               <img
                 className="mx-auto h-12 w-12 md:h-14 md:w-14"
-                src={person.imageUrl}
+                src={service.imageUrl}
                 alt=""
               />
               <h3 className="mt-6 text-2xl font-bold leading-7 tracking-tight text-white uppercase">
-                {person.name}
+                {service.name}
               </h3>
               <p className="mt-6 text-base leading-6 text-customColor1">
-                {person.role}
+                {service.role}
               </p>
               <ul role="list" className="mt-6 flex justify-center gap-x-6">
                 <li>
