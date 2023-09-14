@@ -6,7 +6,7 @@ const blogsBanner = () => {
       <div className="relative isolate overflow-hidden bg-customColor2 py-24 sm:py-32">
         <img
           src="/photos/blogs-banner.jpg"
-          alt=""
+          alt="blogs banner"
           className="absolute inset-0 -z-10 h-full w-full object-cover bg-customColor2 opacity-20"
         />
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
