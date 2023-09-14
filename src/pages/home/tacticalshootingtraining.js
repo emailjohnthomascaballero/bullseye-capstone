@@ -1,33 +1,33 @@
 import React from "react";
 
-const people = [
+const trainings = [
   {
     name: "MARKSMANSHIP BASIC",
-    role: "Learn essential techniques for aiming, breath control, trigger squeeze, and sight alignment.",
+    description:
+      "Learn essential techniques for aiming, breath control, trigger squeeze, and sight alignment.",
     imageUrl: "/icons/marksmanship-basic.svg",
-    twitterUrl: "#",
-    linkedinUrl: "#",
+    alt: "marksmanship icon",
   },
   {
     name: "CONCEALED CARRY TRAINING",
-    role: "Gain proficiency in firearm handling, situational awareness, and legal considerations.",
+    description:
+      "Gain proficiency in firearm handling, situational awareness, and legal considerations.",
     imageUrl: "/icons/concealed-carry-training.svg",
-    twitterUrl: "#",
-    linkedinUrl: "#",
+    alt: "concealed carry training icon",
   },
   {
     name: "LONG-RANGE SHOOTING",
-    role: "Elevate your ability to engage targets accurately over long ranges in tactical shooting training.",
+    description:
+      "Elevate your ability to engage targets accurately over long ranges in tactical shooting training.",
     imageUrl: "/icons/long-range-shooting.svg",
-    twitterUrl: "#",
-    linkedinUrl: "#",
+    alt: "long range shooting icon",
   },
   {
     name: "VIRTUAL REALITY TRAINING",
-    role: "Elevate your training to a new level with the realism and versatility of virtual reality technology.",
+    description:
+      "Elevate your training to a new level with the realism and versatility of virtual reality technology.",
     imageUrl: "/icons/virtual-reality-training.svg",
-    twitterUrl: "#",
-    linkedinUrl: "#",
+    alt: "virtual reality training icon",
   },
 ];
 
@@ -48,20 +48,22 @@ const tacticalshootingtraining = () => {
           role="list"
           className="mx-auto mt-20 grid max-w-2xl grid-cols-1 gap-6 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-2 xl:grid-cols-4 lg:gap-8"
         >
-          {people.map((person) => (
+          {trainings.map((training) => (
             <li
-              key={person.name}
+              key={training.name}
               className="px-8 py-10 border border-white flex-col items-center"
             >
               <img
                 className=" h-12 w-12 md:h-14 md:w-14"
-                src={person.imageUrl}
-                alt=""
+                src={training.imageUrl}
+                alt={training.alt}
               />
               <h3 className="mt-6 text-2xl font-semibold leading-7 tracking-tight text-white">
-                {person.name}
+                {training.name}
               </h3>
-              <p className="text-base leading-6 text-gray-400">{person.role}</p>
+              <p className="mt-6 text-base leading-6 text-gray-400">
+                {training.description}
+              </p>
               <ul role="list" className="mt-6 flex  gap-x-6">
                 <a
                   href="#"
