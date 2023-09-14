@@ -35,15 +35,11 @@ const faqs = [
   // More questions...
 ];
 
-const frequentlyAskedQuestions = {
+const content = {
   title: "FREQUENTLY ASKED QUESTION",
   imageSrc: "/photos/contact-us-faq.jpg",
-  imageAlt: "contact us photo",
+  imageAlt: "shooter aiming a rifle",
 };
-
-function classNames(...classes) {
-  return classes.filter(Boolean).join(" ");
-}
 
 const contactfaq = () => {
   return (
@@ -53,7 +49,7 @@ const contactfaq = () => {
           <div className="my-4 flex items-center">
             <img src="/icons/vertical-bar.svg" className="mr-1 h-16 lg:h-24" />
             <h1 className="text-4xl font-bold tracking-tight sm:text-5xl">
-              {frequentlyAskedQuestions.title}
+              {content.title}
             </h1>
           </div>
 
@@ -77,7 +73,7 @@ const contactfaq = () => {
                       </Disclosure.Button>
                     </dt>
                     <Disclosure.Panel as="dd" className="mt-2 pr-12">
-                      <p className="text-base leading-7 text-gray-300">
+                      <p className="text-base leading-7 text-customColor1">
                         {faq.answer}
                       </p>
                     </Disclosure.Panel>
@@ -89,10 +85,10 @@ const contactfaq = () => {
         </div>
 
         <div className="mt-10 lg:col-start-2 lg:row-span-2 lg:mt-0 lg:self-center">
-          <div className="aspect-h-1 aspect-w-1 overflow-hidden rounded-lg">
+          <div className="aspect-h-1 aspect-w-1 overflow-hidden">
             <img
-              src={frequentlyAskedQuestions.imageSrc}
-              alt={frequentlyAskedQuestions.imageAlt}
+              src={content.imageSrc}
+              alt={content.imageAlt}
               className="h-full w-full object-cover object-center"
             />
           </div>
