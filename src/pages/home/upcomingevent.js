@@ -97,7 +97,7 @@ export default function Example() {
       </div>
 
       <div className="mx-auto max-w-2xl text-center">
-        <p className="mt-4 text-base leading-8 text-gray-400">
+        <p className="mt-8 text-base leading-8 text-gray-400">
           We have more event,{" "}
           <span className="text-customSecondary">View more event now</span>
         </p>
