@@ -82,7 +82,7 @@ const safefunaffordable = () => {
               </h2>
             </div>
 
-            <p className="mt-6 text-base leading-8 text-customColor1">
+            <p className="mt-12 mb-16 text-base leading-8 text-customColor1">
               Whether you're a seasoned marksman or a first-time shooter, our
               facilities and services are designed to ensure your time with us
               is safe, enjoyable, and budget-friendly. Join us and be part of a
