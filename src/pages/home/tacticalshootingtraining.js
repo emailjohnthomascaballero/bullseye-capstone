@@ -4,7 +4,7 @@ const trainings = [
   {
     name: "MARKSMANSHIP BASIC",
     description:
-      "Learn essential techniques for aiming, breath control, trigger squeeze, and sight alignment.",
+      "Our certified instructors will guide you through these fundamental techniques, setting the stage for success in firearms handling.",
     imageUrl: "/icons/marksmanship-basic.svg",
     alt: "marksmanship icon",
   },
