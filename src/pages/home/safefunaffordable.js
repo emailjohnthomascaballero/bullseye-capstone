@@ -22,7 +22,6 @@ const safefunaffordable = () => {
     <div className="bg-customPrimary py-12 sm:py-16">
       <div className="relative mx-auto max-w-7xl sm:px-6 lg:px-8">
         <div className="mx-auto flex max-w-2xl flex-col gap-16  px-6 py-16 sm:p-8 lg:mx-0 lg:max-w-none lg:flex-row lg:items-center lg:py-20 xl:gap-32 xl:px-0 lg:px-0">
-
           {/* PHOTO */}
           <div className="lg:col-span-7 md:col-span-11 mx-auto lg:order-first md:w-8/12">
             <div className="relative ">
@@ -84,8 +83,10 @@ const safefunaffordable = () => {
             </div>
 
             <p className="mt-6 text-base leading-8 text-customColor1">
-              Whether you're a beginner or an expert, our state-of-the-art
-              facility ensures a great time for everyone.
+              Whether you're a seasoned marksman or a first-time shooter, our
+              facilities and services are designed to ensure your time with us
+              is safe, enjoyable, and budget-friendly. Join us and be part of a
+              community that values and promotes accessible shooting for all.
             </p>
             <ul
               role="list"
@@ -97,7 +98,7 @@ const safefunaffordable = () => {
                   className=" py-6 md:py-0 lg:py-0 flex-col items-center"
                 >
                   <img
-                    className=" h-12 w-12 md:h-14 md:w-14"
+                    className="mb-3 h-12 w-12 md:h-14 md:w-14"
                     src={person.imageUrl}
                     alt={person.alt}
                   />
@@ -107,7 +108,7 @@ const safefunaffordable = () => {
                     <img src="/icons/plus-sign.svg" className="ml-2" />
                   </h3>
 
-                  <p className="text-xl font-bold leading-6 text-customColor1 uppercase">
+                  <p className="text-xl mt-3 font-bold leading-6 text-customColor1 uppercase">
                     {person.role}
                   </p>
                 </li>
@@ -121,4 +122,3 @@ const safefunaffordable = () => {
 };
 
 export default safefunaffordable;
-
