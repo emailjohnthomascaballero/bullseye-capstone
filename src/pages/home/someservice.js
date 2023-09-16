@@ -27,7 +27,7 @@ const someservice = () => {
           <h2 className="text-4xl font-bold tracking-tight text-white sm:text-6xl uppercase">
             SOME SERVICE FROM BULLSEYE.
           </h2>
-          <p className="mt-4 text-base leading-8 text-customColor1">
+          <p className="text-left mt-4 text-base leading-8 text-customColor1">
             From firearm rentals and expert training to exciting events and
             competitions, our dedicated team ensures an unparalleled shooting
             experience.
