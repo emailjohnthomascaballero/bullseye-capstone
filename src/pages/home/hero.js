@@ -16,9 +16,9 @@ const heroSection = () => {
             <div className="flex items-center">
               <img
                 src="/icons/vertical-bar.svg"
-                className="mr-1 h-24 lg:h-36"
+                className="mr-1 h-24 md:h-52 lg:h-80"
               />
-              <h2 className="text-5xl md:text-7xl font-bold text-white order-2">
+              <h2 className="text-5xl md:text-8xl font-bold text-white order-2">
                 FROM NOVICE
                 <br />
                 TO EXPERT.
