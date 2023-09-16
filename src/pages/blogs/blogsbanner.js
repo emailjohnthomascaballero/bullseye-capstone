@@ -20,7 +20,7 @@ const blogsBanner = () => {
                 News & Articles
               </h2>
             </div>
-            <p className="mt-6 text-lg leading-8 text-customColor1">
+            <p className="mt-6 text-lg leading-8 text-customColor1 max-w-sm sm:max-w-sm md:max-w-md xl:max-w-lg">
               Explore the latest updates, insightful articles, and expert advice
               on everything related to shooting sports and firearm enthusiasts.
             </p>
