@@ -20,7 +20,7 @@ const contactbanner = () => {
                 Contact Us
               </h2>
             </div>
-            <p className="mt-6 text-lg leading-8 text-customColor1">
+            <p className="mt-6 text-lg leading-8 text-customColor1 max-w-sm sm:max-w-sm md:max-w-md xl:max-w-lg">
               Whether you have questions, need assistance, or want to connect
               with our team, we're here for you.
             </p>
