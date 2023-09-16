@@ -5,17 +5,17 @@ const people = [
     count: "1,200",
     role: "Safe Certified",
     imageUrl: "/icons/safe-certified.svg",
-    alt: "safe certified icon",
+    alt: " ",
   },
   {
     count: "350",
     role: "Reliable Instructor",
     imageUrl: "/icons/reliable-instructor.svg",
-    alt: "reliable instructor icon",
+    alt: " ",
   },
 ];
 
-const info = ["Safe Certified", "Reliable Instructor"];
+
 
 const safefunaffordable = () => {
   return (
@@ -73,7 +73,7 @@ const safefunaffordable = () => {
             <div className="flex items-center mx-auto max-w-2xl lg:mx-0">
               <img
                 src="/icons/vertical-bar.svg"
-                className="mr-1 h-24 lg:h-36"
+                className="mr-1 h-20 lg:h-32"
               />
               <h2 className="font-bold tracking-tight text-white text-3xl sm:text-4xl md:text-5xl lg:text-5xl xl:text-6xl 2xl:text-6xl uppercase">
                 SAFE, FUN, & AFFORDABLE
