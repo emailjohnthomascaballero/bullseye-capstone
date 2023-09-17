@@ -6,7 +6,7 @@ const heroSection = () => {
       <div className="relative bg-customColor2">
         <div className="relative h-80 overflow-hidden bg-customColor2 md:absolute md:left-0 md:h-full md:w-1/3 lg:w-1/2">
           <img
-            className="h-full w-full object-cover"
+            className="floatElement h-full w-full object-cover"
             src="/photos/hero-banner.png"
             alt="hero banner"
           />

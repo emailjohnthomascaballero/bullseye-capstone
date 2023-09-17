@@ -5,14 +5,15 @@ import Hero from "src/pages/home/hero";
 import Tactical from "src/pages/home/tacticalshootingtraining";
 import Safe from "src/pages/home/safefunaffordable";
 import Upcoming from "src/pages/home/upcomingevent";
-import Some  from "src/pages/home/someservice";
+import Some from "src/pages/home/someservice";
+import FloatAnimation from "@/components/FloatAnimation";
 
 const oswald = Oswald({ subsets: ["latin"] });
 
 export default function Index() {
-
   return (
     <div className={`${oswald.className}`}>
+      <FloatAnimation />
       <Navbar />
       <Hero />
       <Tactical />
