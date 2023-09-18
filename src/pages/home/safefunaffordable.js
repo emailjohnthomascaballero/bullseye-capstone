@@ -1,8 +1,9 @@
 import React from "react";
+import NumberIncrement from 'src/components/NumberIncrement';
 
 const people = [
   {
-    count: "1,200",
+    count: "1200",
     role: "Safe Certified",
     imageUrl: "/icons/safe-certified.svg",
     alt: " ",
@@ -104,12 +105,14 @@ const safefunaffordable = () => {
                   />
 
                   <h3 className="inline-flex mt-6 text-6xl font-bold leading-7 tracking-tight text-white h-[41] w-44">
-                    {person.count}{" "}
+                  {/* <NumberIncrement initialValue={0} targetValue={100} duration={3} /> */}
+                  <NumberIncrement initialValue={0} targetValue={person.count} duration={1} />
+                  {" "}
                     <img src="/icons/plus-sign.svg" className="ml-2" />
                   </h3>
 
                   <p className="text-xl mt-3 font-bold leading-6 text-customColor1 uppercase">
-                    {person.role}
+                  <NumberIncrement initialValue={0} targetValue={person.role} duration={1} />
                   </p>
                 </li>
               ))}
