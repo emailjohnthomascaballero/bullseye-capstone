@@ -30,7 +30,7 @@ const safefunaffordable = () => {
                 </div>
               </div>
               <div className="flex gap-1">
-                <div className="moveRightElement  md:w-1/2 w-5/12">
+                <div className="moveRightElement md:w-1/2 w-5/12 z-10">
                   <img
                     src="/photos/safe-banner-permit.svg"
                     alt=""
@@ -38,7 +38,7 @@ const safefunaffordable = () => {
                   />
                 </div>
 
-                <div className="md:w-2/3 w-7/12">
+                <div className="floatElement md:w-2/3 w-7/12">
                   <img
                     src="/photos/safe-banner-girl.jpg"
                     alt=""
