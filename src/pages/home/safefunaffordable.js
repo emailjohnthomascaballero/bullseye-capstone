@@ -31,7 +31,7 @@ const safefunaffordable = () => {
                 </div>
               </div>
               <div className="flex gap-1">
-                <div className="md:w-1/2 w-5/12">
+                <div className="moveRightElement  md:w-1/2 w-5/12">
                   <img
                     src="/photos/safe-banner-permit.svg"
                     alt=""
