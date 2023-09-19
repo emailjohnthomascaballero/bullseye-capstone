@@ -24,7 +24,6 @@ const heroSection = () => {
                 TO EXPERT.
               </h2>
             </div>
-
             <p className="mt-6 text-lg leading-7 text-gray-300">
               Welcome to Bullseye, the premier shooting range and gun club in
               Philippines. Whether you’re a seasoned marksman or a beginner
