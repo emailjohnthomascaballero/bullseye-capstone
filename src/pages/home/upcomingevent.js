@@ -65,7 +65,7 @@ export default function Example() {
 
         <div className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-6 sm:mt-20 lg:mx-0 lg:max-w-none lg:grid-cols-1 lg:gap-8">
           {schedules.map((schedule) => (
-            <div className="border border-customSecondary bg-customPrimary px-4 py-3 sm:flex sm:items-center sm:justify-between sm:space-x-6 sm:px-6 lg:space-x-8">
+            <div className="fadeElement border border-customSecondary bg-customPrimary px-4 py-3 sm:flex sm:items-center sm:justify-between sm:space-x-6 sm:px-6 lg:space-x-8">
               <dl className="flex-auto space-y-6 divide-y divide-customSecondary text-sm text-gray-600 sm:grid sm:grid-cols-2 sm:gap-x-6 sm:space-y-0 sm:divide-y-0 lg:w-4/5 lg:flex-none lg:gap-x-8">
                 <div className="flex justify-between sm:block gap-12">
                   <dt className="text-customSecondary text-2xl font-bold uppercase">

@@ -8,6 +8,7 @@ import Upcoming from "src/pages/home/upcomingevent";
 import Some from "src/pages/home/someservice";
 import FloatAnimation from "@/components/FloatAnimation";
 import MoveRightAnimation from "src/components/MoveRightAnimation";
+import FadeInAnimation from "src/components/FadeInAnimation";
 
 const oswald = Oswald({ subsets: ["latin"] });
 
@@ -16,6 +17,7 @@ export default function Index() {
     <div className={`${oswald.className}`}>
       <FloatAnimation />
       <MoveRightAnimation />
+      <FadeInAnimation />
       <Navbar />
       <Hero />
       <Tactical />
