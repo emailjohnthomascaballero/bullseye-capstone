@@ -35,12 +35,12 @@ const someservice = () => {
         </div>
         <ul
           role="list"
-          className="fadeInSomeServiceElement mx-auto mt-20 grid max-w-2xl grid-cols-1 gap-6 lg:mx-0 lg:max-w-none lg:grid-cols-3 lg:gap-8"
+          className="mx-auto mt-20 grid max-w-2xl grid-cols-1 gap-6 lg:mx-0 lg:max-w-none lg:grid-cols-3 lg:gap-8"
         >
           {services.map((service) => (
             <li
               key={service.name}
-              className="border border-customSecondary px-8 py-10"
+              className="fadeInSomeServiceElement border border-customSecondary px-8 py-10"
             >
               <img
                 className="mx-auto h-12 w-12 md:h-14 md:w-14"
