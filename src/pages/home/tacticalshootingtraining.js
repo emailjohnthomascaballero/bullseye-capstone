@@ -46,12 +46,12 @@ const tacticalshootingtraining = () => {
 
         <ul
           role="list"
-          className="fadeInTacticalElement mx-auto mt-20 grid max-w-2xl grid-cols-1 gap-6 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-2 xl:grid-cols-4 lg:gap-8"
+          className="mx-auto mt-20 grid max-w-2xl grid-cols-1 gap-6 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-2 xl:grid-cols-4 lg:gap-8"
         >
           {trainings.map((training) => (
             <li
               key={training.name}
-              className="px-8 py-10 border border-white flex-col items-center"
+              className="fadeInTacticalElement px-8 py-10 border border-white flex-col items-center"
             >
               <img
                 className=" h-12 w-12 md:h-14 md:w-14"
