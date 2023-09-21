@@ -1,6 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import { Switch } from "@headlessui/react";
+import LeafletMap from "src/components/Map";
 
 /*
   This example requires some changes to your config:
@@ -28,12 +29,13 @@ const contactmap = () => {
   return (
     <div className="bg-customPrimary">
       <section aria-labelledby="features-heading" className="relative">
-        <div className="aspect-h-2 aspect-w-3 overflow-hidden sm:aspect-w-5 lg:aspect-none lg:absolute lg:h-full lg:w-1/2 lg:pr-4 xl:pr-16">
-          <img
+        <div className="aspect-h-2 aspect-w-3 overflow-hidden sm:aspect-w-5 lg:aspect-none lg:absolute lg:h-full lg:w-1/2 lg:pr-4 xl:pr-16 -z-0">
+          <LeafletMap />
+          {/* <img
             src="/photos/contact-us-map.jpg"
             alt="map exact location of this company"
             className="h-full w-full object-cover object-center lg:h-full lg:w-full"
-          />
+          /> */}
         </div>
 
         <div className="mx-auto max-w-2xl px-4 pb-24 pt-16 sm:px-6 sm:pb-32 lg:grid lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8 lg:pt-32">
