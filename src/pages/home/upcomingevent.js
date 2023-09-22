@@ -32,7 +32,7 @@ const schedules = [
   },
   {
     title: "TACTICAL TRAINING WEEKEND",
-    description: "Take Your Skills to the Next Level with Advanced Training",
+    description: "Take Your Skills to the Next Level",
     date: "JUNE 14TH-17TH",
     time: "09.00 AM - 05.00PM",
     buttonLink: "#",
