@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 /*
   This example requires some changes to your config:
@@ -120,7 +121,12 @@ const footer = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 xl:col-span-2">
             <div className="md:grid md:grid-cols-2 md:gap-8">
               <a href="#">
-                <img className="" src="/logos/logo.svg" alt="Company name" />
+                <Image
+                  src="/logos/logo.svg"
+                  alt="Company name"
+                  width="226" // Set the desired width
+                  height="71" // Set the desired height
+                />
               </a>
             </div>
             <div className="md:grid md:grid-cols-2 md:gap-8">
@@ -148,10 +154,13 @@ const footer = () => {
                 <ul role="list" className="mt-6 space-y-0">
                   {navigation.legal.map((item) => (
                     <li key={item.name} className="flex">
-                      <img
+                      <Image
                         src="/icons/arrow-right-green.svg"
+                        alt="arrow point right"
+                        width="16"
+                        height="23"
                         className="mr-4"
-                      ></img>
+                      />
                       <a
                         href={item.href}
                         className="text-base leading-6 text-customColor1 hover:text-gray-300 transition duration-500"
