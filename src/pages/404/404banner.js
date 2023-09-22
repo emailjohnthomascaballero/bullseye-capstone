@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 const errorbanner = () => {
   return (
@@ -6,7 +7,7 @@ const errorbanner = () => {
       <div className="relative bg-customColor2">
         <div className="relative h-80 overflow-hidden bg-customColor2 md:absolute md:left-0 md:h-full md:w-1/3 lg:w-1/2">
           <img
-            className="h-full w-full object-cover"
+            className="floatElement h-full w-full object-cover"
             src="/photos/404-banner.png"
             alt="error banner"
           />
@@ -31,13 +32,13 @@ const errorbanner = () => {
               The Page You Requested Could Not Be Found. Were Working On It.
             </p>
             <div className="mt-8">
-              <a
+              <Link
                 href="/"
                 className="inline-flex bg-customSecondary px-3.5 py-2.5 text-sm font-semibold text-white uppercase shadow-sm hover:bg-white/20 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white duration-500"
               >
                 Back To Home{" "}
                 <img src="/icons/arrow-right-white.svg" className="ml-2" />
-              </a>
+              </Link>
             </div>
           </div>
         </div>
