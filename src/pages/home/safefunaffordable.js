@@ -1,5 +1,6 @@
 import React from "react";
 import NumberIncrement from "src/components/NumberIncrement";
+import Image from "next/image";
 
 const people = [
   {
@@ -26,53 +27,46 @@ const safefunaffordable = () => {
             <div className="relative ">
               <div className="flex">
                 <div className="md:w-2/3 sm:w-2/3 w-10/12">
-                  <img src="/photos/safe-banner-target.jpg" alt="" />
+                  <Image
+                    src="/photos/safe-banner-target.jpg"
+                    alt="target shooting"
+                    width="290"
+                    height="435"
+                  />
                 </div>
               </div>
               <div className="flex gap-1">
                 <div className="moveRightElement md:w-1/2 w-5/12 z-10">
-                  <img
+                  <Image
                     src="/photos/safe-banner-permit.svg"
-                    alt=""
+                    alt="permit certificate card"
                     className="mt-1"
+                    width="184"
+                    height="58"
                   />
                 </div>
 
                 <div className="floatElement md:w-2/3 w-7/12">
-                  <img
+                  <Image
                     src="/photos/safe-banner-girl.jpg"
-                    alt=""
+                    alt="girl aming a pistol to the right"
                     className="mt-1"
+                    width="246"
+                    height="164"
                   />
                 </div>
               </div>
-              {/* temporary */}
-              <img
-                src=""
-                alt=""
-                className="absolute h-28 w-auto z-50 top-1 -right-4 md:-right-10"
-                id="scale-left"
-              />
-              <img
-                src=""
-                alt=""
-                className="absolute h-28 w-auto z-50 top-36 md:top-28 -right-4 md:-right-8"
-                id="scale-up"
-              />
-              <img
-                src=""
-                alt=""
-                className="absolute h-32 w-auto z-1 -bottom-2 sm:bottom-8 md:-bottom-2 left-2 sm:left-10 md:left-2"
-                id="scale-up"
-              />
             </div>
           </div>
 
           <div className="w-full flex-auto">
             <div className="flex items-center mx-auto max-w-2xl lg:mx-0">
-              <img
+              <Image
                 src="/icons/vertical-bar.svg"
                 className="mr-1 h-20 lg:h-32"
+                alt="vertical bar icon"
+                width="9"
+                height="127"
               />
               <h2 className="font-bold tracking-tight text-white text-3xl sm:text-4xl md:text-5xl lg:text-5xl xl:text-6xl 2xl:text-6xl uppercase">
                 SAFE, FUN, & AFFORDABLE
@@ -96,10 +90,12 @@ const safefunaffordable = () => {
                   key={person.name}
                   className=" py-6 md:py-0 lg:py-0 flex-col items-center"
                 >
-                  <img
+                  <Image
                     className="mb-3 h-12 w-12 md:h-14 md:w-14"
                     src={person.imageUrl}
                     alt={person.alt}
+                    width="55"
+                    height="55"
                   />
 
                   <h3 className="inline-flex mt-6 text-6xl font-bold leading-7 tracking-tight text-white h-[41] w-44">
@@ -108,7 +104,13 @@ const safefunaffordable = () => {
                       targetValue={person.count}
                       duration={1}
                     />{" "}
-                    <img src="/icons/plus-sign.svg" className="ml-2" />
+                    <Image
+                      src="/icons/plus-sign.svg"
+                      className="ml-2"
+                      alt="plus icon"
+                      width="27"
+                      height="27"
+                    />
                   </h3>
 
                   <p className="text-xl mt-3 font-bold leading-6 text-customColor1 uppercase">
