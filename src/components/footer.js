@@ -123,9 +123,9 @@ const footer = () => {
               <a href="#">
                 <Image
                   src="/logos/logo.svg"
-                  alt="Company name"
-                  width="226" // Set the desired width
-                  height="71" // Set the desired height
+                  alt="Company Logo"
+                  width="226" 
+                  height="71" 
                 />
               </a>
             </div>

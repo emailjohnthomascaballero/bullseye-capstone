@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Dialog } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
+import Image from "next/image";
 
 const navigation = [
   { name: "News", href: "#" },
@@ -19,7 +20,12 @@ export default function Navbar() {
       >
         <a href="#" className="-m-1.5 p-1.5">
           <span className="sr-only">Your Company</span>
-          <img className="h-auto w-auto" src="/logos/logo.svg" alt="" />
+          <Image
+            src="/logos/logo.svg"
+            alt="Company Logo"
+            width="226"
+            height="71"
+          />
         </a>
         <div className="flex lg:hidden">
           <button
@@ -60,10 +66,11 @@ export default function Navbar() {
           <div className="flex items-center justify-between">
             <a href="#" className="-m-1.5 p-1.5">
               <span className="sr-only">Your Company</span>
-              <img
-                className="h-auto w-auto"
+              <Image
                 src="/logos/logo.svg"
-                alt="bullseye logo"
+                alt="Company Logo"
+                width="226"
+                height="71"
               />
             </a>
             <button
