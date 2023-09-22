@@ -7,7 +7,7 @@ import Link from "next/link";
 const navigation = [
   { name: "News", href: "#" },
   { name: "Blog", href: "../blogs" },
-  { name: "Contact Us", href: "/contact" },
+  { name: "Contact Us", href: "../contact" },
 ];
 
 export default function Navbar() {
