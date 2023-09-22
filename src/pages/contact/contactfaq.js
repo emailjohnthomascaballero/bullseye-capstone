@@ -20,17 +20,17 @@ const faqs = [
   {
     question: "Do I need any prior experience to visit the shooting range?",
     answer:
-      "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast",
+      "No, prior experience is not required to visit our shooting range. We welcome all skill levels, and our certified instructors can provide guidance for beginners.",
   },
   {
     question: "What Equipment Do I need to bring?",
     answer:
-      "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast",
+      "All you need to bring is a valid photo ID and a positive attitude! We provide all the necessary firearms, ammunition, safety gear, and targets. If you have personal safety equipment, such as ear protection or safety glasses, you're welcome to bring them, but it's not required.",
   },
   {
     question: "Do you offer shooting courses or training?",
     answer:
-      "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast",
+      "Yes, we offer a range of shooting courses and training programs for all experience levels. Our certified instructors provide comprehensive instruction in firearm safety and marksmanship.",
   },
   // More questions...
 ];
