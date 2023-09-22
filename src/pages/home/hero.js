@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 const heroSection = () => {
   return (
@@ -30,13 +31,13 @@ const heroSection = () => {
               looking to improve your skills, we have something for everyone.
             </p>
             <div className="mt-8">
-              <a
-                href="#"
+              <Link
+                href="../blogs"
                 className="inline-flex bg-customSecondary px-3.5 py-2.5 text-sm font-semibold text-white uppercase shadow-sm hover:bg-white/20 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white duration-500"
               >
                 Explore More{" "}
                 <img src="/icons/arrow-right-white.svg" className="ml-2" />
-              </a>
+              </Link>
             </div>
           </div>
         </div>
