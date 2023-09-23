@@ -1,33 +1,38 @@
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 const errorbanner = () => {
   return (
     <div className="pt-28 lg:pt-14 xl:pt-24">
       <div className="relative bg-customColor2">
         <div className="relative h-80 overflow-hidden bg-customColor2 md:absolute md:left-0 md:h-full md:w-1/3 lg:w-1/2">
-          <img
+          <Image
             className="floatElement h-full w-full object-cover"
             src="/photos/404-banner.png"
-            alt="error banner"
+            alt="person carrying a rifle"
+            width="1057"
+            height="899"
           />
         </div>
         <div className="relative mx-auto max-w-7xl py-14 sm:py-32 lg:px-8 lg:py-52">
           <div className="pl-6 pr-6 md:ml-auto md:w-2/3 md:pl-16 lg:w-1/2 lg:pl-24 lg:pr-0 xl:pl-32">
             <div className="flex items-center">
-              <img
+              <Image
                 src="/icons/vertical-bar.svg"
                 className="mr-1 h-32 lg:h-44"
+                alt="vertical green icon"
+                width="13"
+                height="175"
               />
               <h2 className="text-[150px] md:text-[200px] font-bold text-white order-2">
                 404
               </h2>
-              
             </div>
 
             <h2 className="text-4xl md:text-6xl font-bold text-white order-2">
-            PAGE NOT FOUND
-              </h2>
+              PAGE NOT FOUND
+            </h2>
             <p className="mt-6 text-base leading-7 text-customColor1">
               The Page You Requested Could Not Be Found. Were Working On It.
             </p>
