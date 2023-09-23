@@ -42,7 +42,13 @@ const errorbanner = () => {
                 className="inline-flex bg-customSecondary px-3.5 py-2.5 text-sm font-semibold text-white uppercase shadow-sm hover:bg-white/20 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white duration-500"
               >
                 Back To Home{" "}
-                <img src="/icons/arrow-right-white.svg" className="ml-2" />
+                <Image
+                  src="/icons/arrow-right-white.svg"
+                  className="ml-2"
+                  alt="arrow point right"
+                  width="15"
+                  height="20"
+                />
               </Link>
             </div>
           </div>
