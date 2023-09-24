@@ -1,5 +1,6 @@
 import { Disclosure } from "@headlessui/react";
 import { ArrowUpIcon, ChevronDownIcon } from "@heroicons/react/24/outline";
+import Image from "next/image";
 
 /*
   This example requires some changes to your config:
@@ -47,7 +48,13 @@ const contactfaq = () => {
       <div className="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:grid lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
         <div className="lg:max-w-lg lg:self-end">
           <div className="my-4 flex items-center">
-            <img src="/icons/vertical-bar.svg" className="mr-1 h-16 lg:h-24" />
+            <Image
+              className="mr-1 h-16 lg:h-24"
+              src="/icons/vertical-bar.svg"
+              alt="vertical bar icon"
+              width="7"
+              height="95"
+            />
             <h1 className="text-4xl font-bold tracking-tight sm:text-5xl">
               {content.title}
             </h1>
@@ -86,10 +93,12 @@ const contactfaq = () => {
 
         <div className="mt-10 lg:col-start-2 lg:row-span-2 lg:mt-0 lg:self-center">
           <div className="floatElement aspect-h-1 aspect-w-1 overflow-hidden">
-            <img
+            <Image
+              className="h-full w-full object-cover object-center"
               src={content.imageSrc}
               alt={content.imageAlt}
-              className="h-full w-full object-cover object-center"
+              width="592"
+              height="381"
             />
           </div>
         </div>
