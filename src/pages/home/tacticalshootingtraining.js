@@ -1,10 +1,12 @@
 import React from "react";
+import Image from "next/image";
+import Link from "next/link";
 
 const trainings = [
   {
     name: "MARKSMANSHIP BASIC",
     description:
-      "Our certified instructors will guide you through these fundamental techniques, setting the stage for success in firearms handling.",
+      "Certified instructors lead you through key techniques for successful firearms handling.",
     imageUrl: "/icons/marksmanship-basic.svg",
     alt: "marksmanship icon",
   },
@@ -36,7 +38,13 @@ const tacticalshootingtraining = () => {
     <div className="bg-customPrimary py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-6 text-left lg:px-8">
         <div className="flex items-center mx-auto max-w-2xl lg:mx-0">
-          <img src="/icons/vertical-bar.svg" className="mr-1 h-24 lg:h-36" />
+          <Image
+            className="mr-1 h-24 lg:h-36"
+            src="/icons/vertical-bar.svg"
+            alt="vertical bar icon"
+            width="10"
+            height="143"
+          />
           <h2 className="text-4xl font-bold tracking-tight text-white sm:text-6xl uppercase">
             Tactical Shooting
             <br />
@@ -53,10 +61,12 @@ const tacticalshootingtraining = () => {
               key={training.name}
               className="fadeInTacticalElement px-8 py-10 border border-white flex-col items-center"
             >
-              <img
+              <Image
                 className=" h-12 w-12 md:h-14 md:w-14"
                 src={training.imageUrl}
                 alt={training.alt}
+                width="55"
+                height="55"
               />
               <h3 className="mt-6 text-2xl font-semibold leading-7 tracking-tight text-white">
                 {training.name}
@@ -65,13 +75,19 @@ const tacticalshootingtraining = () => {
                 {training.description}
               </p>
               <ul role="list" className="mt-6 flex  gap-x-6">
-                <a
+                <Link
                   href="#"
                   className="inline-flex text-base uppercase font-bold leading-6 text-customSecondary hover:text-gray-300 transition duration-500"
                 >
                   Join Program{" "}
-                  <img src="/icons/chevron-right.svg" className="ml-2" />
-                </a>
+                  <Image
+                    src="/icons/chevron-right.svg"
+                    className="ml-2"
+                    alt="cheveron point right"
+                    width="16"
+                    height="23"
+                  />
+                </Link>
               </ul>
             </li>
           ))}
