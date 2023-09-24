@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Switch } from "@headlessui/react";
 import LeafletMap from "src/components/Map";
+import Image from "next/image";
 
 /*
   This example requires some changes to your config:
@@ -30,19 +31,24 @@ const contactmap = () => {
       <section aria-labelledby="features-heading" className="relative">
         <div className="aspect-h-2 aspect-w-3 overflow-hidden sm:aspect-w-5 lg:aspect-none lg:absolute lg:h-full lg:w-1/2 lg:pr-4 xl:pr-16 -z-0">
           <LeafletMap />
-          {/* <img
-            src="/photos/contact-us-map.jpg"
-            alt="map exact location of this company"
+          {/* <Image
             className="h-full w-full object-cover object-center lg:h-full lg:w-full"
+            src="/photos/contact-us-map.jpg"
+            alt="exact map location of this company"
+            width="993"
+            height="983"
           /> */}
         </div>
 
         <div className="mx-auto max-w-2xl px-4 pb-24 pt-16 sm:px-6 sm:pb-32 lg:grid lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8 lg:pt-32">
           <div className="lg:col-start-2">
             <div className="mt-4 flex items-center">
-              <img
-                src="/icons/vertical-bar.svg"
+              <Image
                 className="mr-1 h-16 lg:h-24 2xl:h-16"
+                src="/icons/vertical-bar.svg"
+                alt="vertical bar icon"
+                width="4"
+                height="63"
               />
               <h1 className="text-3xl font-bold tracking-tight sm:text-4xl">
                 GET IN TOUCH WITH OUR FRIENDLY TEAM
