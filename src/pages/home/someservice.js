@@ -1,20 +1,25 @@
 import React from "react";
+import Image from "next/image";
+import Link from "next/link";
 
 const services = [
   {
     name: "RANGE RENTAL",
     role: "Whether you're a seasoned shooter or a beginner, our top-of-the-line firearms are available for rent, ensuring a safe and thrilling shooting experience.",
     imageUrl: "/icons/range-rental.svg",
+    alt: "camp icon",
   },
   {
     name: "TRAINING & INSTRUCTION",
     role: "Whether you're looking to hone your accuracy, learn safety techniques, or explore competitive shooting, our expert guidance will help you excel.",
     imageUrl: "/icons/training-instruction.svg",
+    alt: "target icon",
   },
   {
     name: "FIREARM RENTAL",
     role: " Choose from our diverse selection of top-quality firearms, from pistols to rifles, all meticulously maintained for your safety and enjoyment. ",
     imageUrl: "/icons/firearm-rental.svg",
+    alt: "medic camp icon",
   },
   // More people...
 ];
@@ -42,10 +47,12 @@ const someservice = () => {
               key={service.name}
               className="fadeInSomeServiceElement border border-customSecondary px-8 py-10"
             >
-              <img
+              <Image
                 className="mx-auto h-12 w-12 md:h-14 md:w-14"
                 src={service.imageUrl}
-                alt=""
+                alt={service.alt}
+                width="55"
+                height="55"
               />
               <h3 className="mt-6 text-2xl font-bold leading-7 tracking-tight text-white uppercase">
                 {service.name}
@@ -55,13 +62,19 @@ const someservice = () => {
               </p>
               <ul role="list" className="mt-6 flex justify-center gap-x-6">
                 <li>
-                  <a
+                  <Link
                     href="#"
                     className="inline-flex text-base uppercase font-bold leading-6 text-customSecondary hover:text-gray-300 transition duration-500"
                   >
                     Read More{" "}
-                    <img src="/icons/chevron-right.svg" className="ml-2" />
-                  </a>
+                    <Image
+                      className="ml-2"
+                      src="/icons/chevron-right.svg"
+                      alt="chevron point right icon"
+                      width="16"
+                      height="23"
+                    />
+                  </Link>
                 </li>
               </ul>
             </li>
