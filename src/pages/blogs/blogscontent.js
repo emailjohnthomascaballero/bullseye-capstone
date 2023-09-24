@@ -4,6 +4,7 @@ import Link from "next/link"
 
 const posts = [
   {
+    id: "1",
     title: "Expert Advice, How to Choose the Right Gun for Your…",
     imageUrl: "/photos/blog-expert-advice.jpg",
     href: "#",
@@ -17,6 +18,7 @@ const posts = [
     secondIconAlt: "folders icon",
   },
   {
+    id: "2",
     title: "5 Essential Tips for Taking Your Shooting Skills from Good…",
     imageUrl: "/photos/blog-essential-tips.jpg",
     href: "#",
@@ -30,6 +32,7 @@ const posts = [
     secondIconAlt: "folders icon",
   },
   {
+    id: "3",
     title: "The History of Shooting Sports, From Ancient Times to the…",
     imageUrl: "/photos/blog-history-shooting.jpg",
     href: "#",
@@ -43,6 +46,7 @@ const posts = [
     secondIconAlt: "folders icon",
   },
   {
+    id: "4",
     title: "Guns, Gear, and Good Times, Behind the Scenes at Bullseye…",
     imageUrl: "/photos/blog-guns-gear.jpg",
     href: "#",
@@ -56,6 +60,7 @@ const posts = [
     secondIconAlt: "folders icon",
   },
   {
+    id: "5",
     title: "The Top 10 Reasons Why Shooting Sports Are Great for…",
     imageUrl: "/photos/blog-top-10.jpg",
     href: "#",
@@ -69,6 +74,7 @@ const posts = [
     secondIconAlt: "folders icon",
   },
   {
+    id: "6",
     title: "How Our Shooting Club Can Help You Take Your Skills…",
     imageUrl: "/photos/blog-our-shooting.jpg",
     href: "#",
@@ -105,7 +111,7 @@ const blogscontent = () => {
 
         <div className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-3">
           {posts.map((post) => (
-            <article className="fadeElement flex flex-col items-start justify-between">
+            <article key={post.id} className="fadeElement flex flex-col items-start justify-between">
               <div className="relative w-full">
                 <Image
                   src={post.imageUrl}
