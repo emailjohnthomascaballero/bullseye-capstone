@@ -1,20 +1,26 @@
 import React from "react";
+import Image from "next/image";
 
 const blogsBanner = () => {
   return (
     <div className="pt-28 lg:pt-14 xl:pt-24">
       <div className="relative isolate overflow-hidden bg-customColor2 py-24 sm:py-32">
-        <img
+        <Image
           src="/photos/blogs-banner.jpg"
-          alt="blogs banner"
           className="absolute inset-0 -z-10 h-full w-full object-cover bg-customColor2 opacity-20"
+          alt="woman in protective eyewear"
+          width="2114"
+          height="423"
         />
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="mx-auto max-w-2xl lg:mx-0">
             <div className="flex items-center mx-auto max-w-2xl lg:mx-0">
-              <img
+              <Image
                 src="/icons/vertical-bar.svg"
                 className="mr-1 h-16 lg:h-20"
+                alt="vertical bar icon"
+                width="6"
+                height="80"
               />
               <h2 className="text-4xl font-bold tracking-tight text-white sm:text-6xl uppercase">
                 News & Articles
