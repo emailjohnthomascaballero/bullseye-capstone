@@ -1,4 +1,6 @@
 import React from "react";
+import Image from "next/image";
+import Link from "next/link";
 
 /*
   This example requires some changes to your config:
@@ -46,18 +48,23 @@ export default function Example() {
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:mx-0">
           <div className="flex items-center mx-auto max-w-2xl lg:mx-0">
-            <img src="/icons/vertical-bar.svg" className="mr-1 h-24 lg:h-36" />
+            <Image
+              className="mr-1 h-24 lg:h-36"
+              src="/icons/vertical-bar.svg"
+              alt="vertical bar icon"
+              width="10"
+              height="143"
+            />
             <h2 className="font-bold tracking-tight text-white text-3xl sm:text-4xl md:text-5xl lg:text-5xl xl:text-6xl 2xl:text-6xl uppercase">
               UPCOMING EVENT FROM
               <br />
               BULLSEYE.
             </h2>
           </div>
-
           <p className="mt-6 text-base leading-8 text-customColor1">
             Our upcoming event promises thrilling competitions, expert training
             sessions, and a chance to showcase your sharpshooting skills.
-            Whether you're a seasoned shooter or a newcomer, this event is your
+            Whether you&apos;re a seasoned shooter or a newcomer, this event is your
             opportunity to hit the target and have a blast. Stay locked and
             loaded for more details!
           </p>
@@ -85,12 +92,12 @@ export default function Example() {
                   </dd>
                 </div>
               </dl>
-              <a
+              <Link
                 href={schedule.buttonLink}
                 className="mt-6 flex w-full items-center justify-center  bg-customSecondary px-4 py-2 text-sm font-medium text-white shadow-sm hover:bg-white/20 focus:outline-none focus:ring-2 focus:ring-customColor1 focus:ring-offset-2 sm:mt-0 sm:w-auto duration-500"
               >
                 REGISTER NOW
-              </a>
+              </Link>
             </div>
           ))}
         </div>
