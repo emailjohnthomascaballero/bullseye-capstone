@@ -1,5 +1,4 @@
-import React from "react";
-import { useState } from "react";
+import React, { useState } from "react";
 import { Switch } from "@headlessui/react";
 import LeafletMap from "src/components/Map";
 
