@@ -1,4 +1,6 @@
 import React from "react";
+import Image from "next/image";
+import Link from "next/link"
 
 const posts = [
   {
@@ -88,7 +90,13 @@ const blogscontent = () => {
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:mx-0">
           <div className="flex items-center mx-auto max-w-2xl lg:mx-0">
-            <img src="/icons/vertical-bar.svg" className="mr-1 h-16 lg:h-20" />
+            <Image
+              src="/icons/vertical-bar.svg"
+              className="mr-1 h-16 lg:h-20"
+              alt="vertical bar icon"
+              width="6"
+              height="80"
+            />
             <h2 className="text-3xl font-bold tracking-tight text-white sm:text-5xl uppercase">
               YOU NEED TO KNOW WITH <br /> OUR LATEST BLOG
             </h2>
@@ -99,35 +107,41 @@ const blogscontent = () => {
           {posts.map((post) => (
             <article className="fadeElement flex flex-col items-start justify-between">
               <div className="relative w-full">
-                <img
+                <Image
                   src={post.imageUrl}
-                  alt={post.alt}
                   className="aspect-[16/9] w-full bg-customColor1 object-cover sm:aspect-[2/1] lg:aspect-[3/2]"
+                  alt={post.alt}
+                  width="383"
+                  height="255"
                 />
               </div>
               <div className="max-w-xl">
                 <div className="mt-8 flex items-center gap-x-4 text-base">
-                  <img
+                  <Image
                     className="h-6 w-6 md:h-7 md:w-7"
                     src={post.firstIconUrl}
                     alt={post.firstIconAlt}
+                    width="27"
+                    height="27"
                   />
                   <time className="text-customColor1">{post.date}</time>
 
-                  <img
+                  <Image
                     className="h-6 w-6 md:h-7 md:w-7"
                     src={post.secondIconUrl}
                     alt={post.secondIconAlt}
+                    width="27"
+                    height="27"
                   />
                   <time className="text-customColor1">{post.category}</time>
                 </div>
 
                 <div className="group relative">
                   <h3 className="mt-3 text-2xl font-bold leading-6 text-white hover:text-gray-400 duration-500">
-                    <a href={post.href}>
+                    <Link href={post.href}>
                       <span className="absolute inset-0" />
                       {post.title}
-                    </a>
+                    </Link>
                   </h3>
                 </div>
               </div>
