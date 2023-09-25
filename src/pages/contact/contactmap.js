@@ -23,7 +23,7 @@ function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
 }
 
-const contactmap = () => {
+const ContactMap = () => {
   const [agreed, setAgreed] = useState(false);
 
   return (
@@ -195,4 +195,4 @@ const contactmap = () => {
   );
 };
 
-export default contactmap;
+export default ContactMap;
