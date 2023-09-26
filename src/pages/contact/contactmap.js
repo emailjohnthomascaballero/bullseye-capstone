@@ -29,7 +29,7 @@ const ContactMap = () => {
   return (
     <div className="bg-customPrimary">
       <section aria-labelledby="features-heading" className="relative">
-        <div className="aspect-h-2 aspect-w-3 overflow-hidden sm:aspect-w-5 lg:aspect-none lg:absolute lg:h-full lg:w-1/2 lg:pr-4 xl:pr-16 -z-0">
+        <div className="h-[500px] aspect-w-3 overflow-hidden sm:aspect-w-5 lg:aspect-none lg:absolute lg:h-full lg:w-1/2 lg:pr-4 xl:pr-16 -z-0">
           <LeafletMap />
           {/* <Image
             className="h-full w-full object-cover object-center lg:h-full lg:w-full"
