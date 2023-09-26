@@ -72,9 +72,9 @@ const contactfaq = () => {
                         </span>
                         <span className="ml-6 flex h-7 items-center">
                           {open ? (
-                            <ArrowUpIcon class="h-7 w-7" />
+                            <ArrowUpIcon className="h-7 w-7" />
                           ) : (
-                            <ChevronDownIcon class="h-7 w-7" />
+                            <ChevronDownIcon className="h-7 w-7" />
                           )}
                         </span>
                       </Disclosure.Button>
