@@ -1,10 +1,11 @@
+<h1 id="readme-top">BULLSEYE -(Shooting Range & Gun Club)</h1>
+<p class="header">Your gateway to the world of shooting sports and firearms expertise. Join our Shooting Range & Gun Club and experience precision, safety, and camaraderie in one place.</p>
+
 <p align="center">
   <a href="https://github.com/emailjohnthomascaballero">
-    <img src="https://themeforest.img.customer.envatousercontent.com/files/457607200/Preview+Image/02_Homepage.jpg?auto=compress%2Cformat&fit=crop&crop=top&w=590&h=300&s=82272ed2aa6ae5f81d9d35d27848a868" width="100%">
+    <img src="./public/presentation/hero-showcase.png" width="100%">
   </a>
 </p>
-
-# Bullseye - Shooting Range & Gun Club
 
 [View Online](https://bullseye-capstone.vercel.app/)
 
