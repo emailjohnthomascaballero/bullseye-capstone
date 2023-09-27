@@ -18,7 +18,7 @@
     <li><a href="#project-style">Project Style</a></li>
     <li><a href="#usage">Usage</a></li>
     <li><a href="#pages">Pages</a></li>
-    <li><a href="#steps">Steps on Deploying Using Vercel</a></li>
+    <li><a href="#steps">Steps on Deploying Using Heroku</a></li>
   </ol>
 </details>
 
@@ -64,9 +64,53 @@ We are dedicated to promoting ethical and lawful gun use while advocating for re
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 
 #### Presentation
-<img src="https://img.shields.io/badge/Marp%20-%23007ACC.svg?&style=for-the-badge&logo=Marp&logoColor=white"> 
+![Marp](https://img.shields.io/badge/Marp-2496ED?style=for-the-badge&logo=marp&logoColor=white)
+
 <!-- Back to Top -->
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<h2 id="developers">III. Developers</h2>
+<a href="https://github.com/emailjohnthomascaballero"><img src="https://img.shields.io/badge/johncaballero-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white"></a>
+
+<!-- Back to Top -->
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<h2 id="project-link">IV. Project Link</h2>
+
+https://bullseye-capstone.vercel.app/
+
+<!-- Back to Top -->
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<h2 id="project-style">V. Project Style</h2>
+Color Scheme
+
+
+
+
+
+<a href=""><img src="https://img.shields.io/badge/Primary%20Color-%2314532d-222629"></a> 
+<a href=""><img src="https://img.shields.io/badge/Secondary%20Color-%2316a34a-86C232"></a>
+
+<a href=""><img src="https://img.shields.io/badge/Color%201-%23d2f34c-767A7C"></a>
+<a href=""><img src="https://img.shields.io/badge/Color%202-%23d2f34c-1B1F22"></a>
+<a href=""><img src="https://img.shields.io/badge/Color%203-%23d2f34c-999EA0"></a>
+
+Logo
+
+<img src="./public/assets/images/logo.png" style="background-color: white; padding: 2rem;"></br>
+
+Favicon
+
+<img src="./public/assets/images/favicon.svg" style="background-color: white; padding: 2rem;"></br>
+
+Typography
+
+**DM Sans**
+
+<!-- Back to Top -->
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 [View Online](https://bullseye-capstone.vercel.app/)
 
