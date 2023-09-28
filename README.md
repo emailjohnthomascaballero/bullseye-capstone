@@ -18,7 +18,7 @@
     <li><a href="#project-style">Project Style</a></li>
     <li><a href="#usage">Usage</a></li>
     <li><a href="#pages">Pages</a></li>
-    <li><a href="#steps">Steps on Deploying Using Vercel</a></li>
+    <li><a href="#steps">Steps on Deploying Using Heroku</a></li>
   </ol>
 </details>
 
@@ -64,11 +64,101 @@ We are dedicated to promoting ethical and lawful gun use while advocating for re
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 
 #### Presentation
-<img src="https://img.shields.io/badge/Marp%20-%23007ACC.svg?&style=for-the-badge&logo=Marp&logoColor=white"> 
+![Marp](https://img.shields.io/badge/Marp-2496ED?style=for-the-badge&logo=marp&logoColor=white)
+
 <!-- Back to Top -->
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-[View Online](https://bullseye-capstone.vercel.app/)
+<h2 id="developers">III. Developers</h2>
+<a href="https://github.com/emailjohnthomascaballero"><img src="https://img.shields.io/badge/johnthomascaballero-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white"></a>
+
+<!-- Back to Top -->
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<h2 id="project-link">IV. Project Link</h2>
+
+https://bullseye-capstone.vercel.app/
+
+<!-- Back to Top -->
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<h2 id="project-style">V. Project Style</h2>
+Color Scheme
+
+<a href=""><img src="https://img.shields.io/badge/Primary%20Color-%2314532d-222629"></a> 
+<a href=""><img src="https://img.shields.io/badge/Secondary%20Color-%2316a34a-86C232"></a>
+
+<a href=""><img src="https://img.shields.io/badge/Color%201-%23d2f34c-767A7C"></a>
+<a href=""><img src="https://img.shields.io/badge/Color%202-%23d2f34c-1B1F22"></a>
+<a href=""><img src="https://img.shields.io/badge/Color%203-%23d2f34c-999EA0"></a>
+
+Logo
+
+<img src="./public/logos/logo.svg" style="background-color: white; padding: 2rem;"></br>
+
+Favicon
+
+<img src="./public//favicon.ico" style="background-color: white; padding: 2rem;"></br>
+
+Typography
+
+**Oswald**
+
+<!-- Back to Top -->
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<h2 id="usage">VI. Usage</h2>
+
+_Below is an example of how you can install and setup the application on your device._
+
+1. Clone the repo
+   ```sh
+   git clone https://github.com/emailjohnthomascaballero/bullseye-capstone.git
+   ```
+2. Install NPM packages
+   ```sh
+   npm install
+   ```
+3. Run dev
+   ```sh
+   npm run dev
+   ```
+   
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<h2 id="pages">VII. Pages</h2>
+
+- <a href="https://bullseye-capstone.vercel.app/">Homepage</a>
+- <a href="#">News</a>
+- <a href="https://bullseye-capstone.vercel.app/blogs">Blog</a>
+- <a href="https://bullseye-capstone.vercel.app/contact">Contact Us</a>
+
+<!-- Back to Top -->
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<h2 id="steps">VIII. Steps on Deploying Using Vercel</h2>
+  Step 1: Setting Port Number
+  
+  <img src="./public/assets/presentation/step_1.png" class="steps"> </br>
+
+  Step 2: Change package.json
+
+  <img src="./public/assets/presentation/step_2.png" class="steps"> </br>
+
+  Step 3: Create Your Procfile
+
+  <img src="./public/assets/presentation/step_3.png" class="steps"> 
+
+  <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+
+
+
+
+
+<h2 id="steps">IX. Creative Planning</h2>
 
 [Notion](https://www.notion.so/BULLEYE-Shooting-Range-Gun-Club-d4fe901c8d3b4348b2fce29a96604f14?pvs=4)
 
