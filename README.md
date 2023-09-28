@@ -85,10 +85,6 @@ https://bullseye-capstone.vercel.app/
 <h2 id="project-style">V. Project Style</h2>
 Color Scheme
 
-
-
-
-
 <a href=""><img src="https://img.shields.io/badge/Primary%20Color-%2314532d-222629"></a> 
 <a href=""><img src="https://img.shields.io/badge/Secondary%20Color-%2316a34a-86C232"></a>
 
@@ -98,15 +94,15 @@ Color Scheme
 
 Logo
 
-<img src="./public/assets/images/logo.png" style="background-color: white; padding: 2rem;"></br>
+<img src="./public/logos/logo.svg" style="background-color: white; padding: 2rem;"></br>
 
 Favicon
 
-<img src="./public/assets/images/favicon.svg" style="background-color: white; padding: 2rem;"></br>
+<img src="./public//favicon.ico" style="background-color: white; padding: 2rem;"></br>
 
 Typography
 
-**DM Sans**
+**Oswald**
 
 <!-- Back to Top -->
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
