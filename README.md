@@ -136,8 +136,29 @@ _Below is an example of how you can install and setup the application on your de
 <!-- Back to Top -->
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<h2 id="steps">VIII. Steps on Deploying Using Vercel</h2>
+  Step 1: Setting Port Number
+  
+  <img src="./public/assets/presentation/step_1.png" class="steps"> </br>
 
-[View Online](https://bullseye-capstone.vercel.app/)
+  Step 2: Change package.json
+
+  <img src="./public/assets/presentation/step_2.png" class="steps"> </br>
+
+  Step 3: Create Your Procfile
+
+  <img src="./public/assets/presentation/step_3.png" class="steps"> 
+
+  <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+
+
+
+
+
+<h2 id="steps">IX. Creative Planning</h2>
 
 [Notion](https://www.notion.so/BULLEYE-Shooting-Range-Gun-Club-d4fe901c8d3b4348b2fce29a96604f14?pvs=4)
 
