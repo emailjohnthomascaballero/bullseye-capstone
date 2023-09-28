@@ -1,4 +1,4 @@
-<h1 id="readme-top">BULLSEYE -(Shooting Range & Gun Club)</h1>
+<h1 id="readme-top">BULLSEYE: SHOOTING RANGE & GUN CLUB PROJECT</h1>
 <p class="header">Your gateway to the world of shooting sports and firearms expertise. Join our Shooting Range & Gun Club and experience precision, safety, and camaraderie in one place.</p>
 
 <p align="center">
