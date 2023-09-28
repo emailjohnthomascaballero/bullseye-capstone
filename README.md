@@ -70,7 +70,7 @@ We are dedicated to promoting ethical and lawful gun use while advocating for re
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <h2 id="developers">III. Developers</h2>
-<a href="https://github.com/emailjohnthomascaballero"><img src="https://img.shields.io/badge/johncaballero-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white"></a>
+<a href="https://github.com/emailjohnthomascaballero"><img src="https://img.shields.io/badge/johnthomascaballero-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white"></a>
 
 <!-- Back to Top -->
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -103,6 +103,35 @@ Favicon
 Typography
 
 **Oswald**
+
+<!-- Back to Top -->
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<h2 id="usage">VI. Usage</h2>
+
+_Below is an example of how you can install and setup the application on your device._
+
+1. Clone the repo
+   ```sh
+   git clone https://github.com/emailjohnthomascaballero/bullseye-capstone.git
+   ```
+2. Install NPM packages
+   ```sh
+   npm install
+   ```
+3. Run dev
+   ```sh
+   npm run dev
+   ```
+   
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<h2 id="pages">VII. Pages</h2>
+
+- <a href="https://bullseye-capstone.vercel.app/">Homepage</a>
+- <a href="#">News</a>
+- <a href="https://bullseye-capstone.vercel.app/blogs">Blog</a>
+- <a href="https://bullseye-capstone.vercel.app/contact">Contact Us</a>
 
 <!-- Back to Top -->
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
