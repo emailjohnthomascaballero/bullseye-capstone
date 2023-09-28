@@ -18,7 +18,8 @@
     <li><a href="#project-style">Project Style</a></li>
     <li><a href="#usage">Usage</a></li>
     <li><a href="#pages">Pages</a></li>
-    <li><a href="#steps">Steps on Deploying Using Heroku</a></li>
+    <li><a href="#steps">Steps on Deploying Using Vercel</a></li>
+    <li><a href="#creative">Creative Planning</a></li>
   </ol>
 </details>
 
@@ -137,29 +138,30 @@ _Below is an example of how you can install and setup the application on your de
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <h2 id="steps">VIII. Steps on Deploying Using Vercel</h2>
-  Step 1: Setting Port Number
+  Step 1: Login Your Github
   
-  <img src="./public/assets/presentation/step_1.png" class="steps"> </br>
+  <img src="./public/presentation/step-1.png" class="steps"> </br>
 
-  Step 2: Change package.json
+  Step 2: Add New Project
 
-  <img src="./public/assets/presentation/step_2.png" class="steps"> </br>
+  <img src="./public/presentation/step-2.png" class="steps"> </br>
 
-  Step 3: Create Your Procfile
+  Step 3: Import Your Project
 
-  <img src="./public/assets/presentation/step_3.png" class="steps"> 
+  <img src="./public/presentation/step-3.png" class="steps">
+  
+  Step 4: Deploy Your Project
 
-  <p align="right">(<a href="#readme-top">back to top</a>)</p>
+  <img src="./public/presentation/step-4.png" class="steps"> 
 
+<!-- Back to Top -->
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
-
-
-
-
-<h2 id="steps">IX. Creative Planning</h2>
+<h2 id="creative">IX. Creative Planning</h2>
 
 [Notion](https://www.notion.so/BULLEYE-Shooting-Range-Gun-Club-d4fe901c8d3b4348b2fce29a96604f14?pvs=4)
 
 [Figma Design](https://www.figma.com/file/ky8VNsHtgkBYkv73II6iIr/Bullseye?type=design&node-id=0%3A1&mode=design&t=k3795FvfR707UjmD-1)
+
+<!-- Back to Top -->
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
